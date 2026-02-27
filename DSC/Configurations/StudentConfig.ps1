@@ -52,20 +52,13 @@ Configuration StudentBaseline {
     Node $AllNodes.NodeName {
 
         # Ensure C:\TEST exists
-        File TestFolder {
-            DestinationPath = 'C:\TEST'
-            Type            = 'Directory'
-            Ensure          = 'Present'
-        }
+        File CreateBaseFolder {
+        DestinationPath = 'C:\BarmBuzz_Base'
+        Type            = 'Directory'
+        Ensure          = 'Present'
+    }
 
-        # Ensure C:\TEST\test.txt exists with content
-        File TestFile {
-            DestinationPath = 'C:\TEST\test.txt'
-            Type            = 'File'
-            Ensure          = 'Present'
-            Contents        = 'Proof-of-life: DSC created this file.'
-            DependsOn       = '[File]TestFolder'
-        }
+        
 
     }
 }
