@@ -1,0 +1,28 @@
+**********************
+PowerShell transcript start
+Start time: 20260227211841
+Username: BARM-DC-01\antoj
+RunAs User: BARM-DC-01\antoj
+Configuration Name: 
+Machine: BARM-DC-01 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -noexit -command try { . "c:\Users\antoj\AppData\Local\Programs\Microsoft VS Code\072586267e\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 1712
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+[+] Transcript started: Evidence\\Transcripts\\20260227_211841_Run_BuildMain.txt
+PS>TerminatingError(): "You must run PowerShell as Administrator."
+
+[-] BUILD FAILED
+Message: You must run PowerShell as Administrator.
+**********************
+PowerShell transcript end
+End time: 20260227211841
+**********************
